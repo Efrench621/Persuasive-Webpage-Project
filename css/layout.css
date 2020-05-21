@@ -1,0 +1,26 @@
+@font-face {
+    font-family: 'tryst';
+    src:    url("Tryst-Regular") format("opentype");
+}
+body {
+    text-align: center;
+    font-family: 'tryst';
+    background-image: url(../images/background.png);
+    background-size: cover;
+    font-size: 200%;
+}
+.images {
+    display: flex;
+    justify-content: space-around;
+    background-color: transparent;
+}
+.div {
+    width: 50%;
+    border: 1px solid whitesmoke;
+}
+a {
+    text-decoration: none;
+    background-color: white;
+    color: rgb(7, 31, 48);
+    padding: 5px;
+}
